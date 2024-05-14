@@ -1,4 +1,4 @@
-# mocha
+# Catppuccin Mocha
 [theme]
 prompt             = { fg = "#a6e3a1", attrs = "bold" }
 input              = { fg = "#cdd6f4" }

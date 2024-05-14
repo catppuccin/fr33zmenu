@@ -1,4 +1,4 @@
-# frappe
+# Catppuccin Frappé
 [theme]
 prompt             = { fg = "#a6d189", attrs = "bold" }
 input              = { fg = "#c6d0f5" }

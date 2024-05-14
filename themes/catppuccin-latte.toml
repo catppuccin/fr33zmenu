@@ -1,4 +1,4 @@
-# latte
+# Catppuccin Latte
 [theme]
 prompt             = { fg = "#40a02b", attrs = "bold" }
 input              = { fg = "#4c4f69" }

@@ -1,0 +1,23 @@
+---
+whiskers:
+  version: 2.1.0
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.toml"
+---
+
+{%- set palette = flavor.colors -%}
+
+# Catppuccin {{ flavor.name }}
+[theme]
+prompt             = { fg = "#{{ palette.green.hex }}", attrs = "bold" }
+input              = { fg = "#{{ palette.text.hex }}" }
+entry_name         = { fg = "#{{ palette.text.hex }}" }
+entry_value        = { fg = "#{{ palette.overlay1.hex }}" }
+entry_match        = { fg = "#{{ palette.sapphire.hex }}", attrs = "bold" }
+entry_hidden       = { fg = "#{{ palette.surface1.hex }}" }
+entry_cursor       = { fg = "#{{ palette.base.hex }}", bg = "#{{ palette.sapphire.hex }}", attrs = "bold" }
+entry_cursor_match = { fg = "#{{ palette.base.hex }}", bg = "#{{ palette.teal.hex }}", attrs = "bold" }
+menu_name          = { fg = "#{{ palette.red.hex }}" }
+menu_cursor        = { fg = "#{{ palette.base.hex }}", bg = "#{{ palette.red.hex }}", attrs = "bold" }
+overflow           = { fg = "#{{ palette.yellow.hex }}", attrs = "bold" }
