@@ -36,9 +36,10 @@
 
 ## Usage
 
-1. Copy the contents of the desired flavour into `~/.config/fr33zmenu/menu.toml`
+> [!NOTE]
+> Catppuccin Mocha is already the default theme for fr33zmenu.
 
-> Note: Catppuccin Mocha is already the default theme for fr33zmenu
+1. Copy the contents of the flavor of your choice from [`themes/`](./themes/) into `~/.config/fr33zmenu/menu.toml`.
 
 ## 💝 Thanks to
 
