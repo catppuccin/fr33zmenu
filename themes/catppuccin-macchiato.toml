@@ -1,4 +1,4 @@
-# macchiato
+# Catppuccin Macchiato
 [theme]
 prompt             = { fg = "#a6da95", attrs = "bold" }
 input              = { fg = "#cad3f5" }
